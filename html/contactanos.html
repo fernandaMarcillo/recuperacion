@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Panaderia Rico Pan</title>
+</head>
+</head>
+
+<body id="body">
+    <header id="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand m-0 p-0" href="#">
+            <img id="logo" src="https://cdn-icons-png.flaticon.com/512/3790/3790052.png" alt="logo1">
+            Panaderia Rico Pan
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-3 mb-2 mb-lg-0">
+              <li class="nav-item me-3">
+                <a class="nav-link active" href="../html/inicio.html">Nosotros</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link active" href="../html/catalogo.html">Productos</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link" href="../html/contactanos.html">Contactanos</a>
+              </li>
+            </ul>
+  
+          </div>
+        </div>
+      </nav>
+    </header>
+   
+    <main id="main">
+
+        <section id="seccion-contacto" class="border-bottom border-secondary border-2">
+            <div class="container  border-top border-primary " style="max-width: 500px" id="contenedor-formulario">
+                <div class="text-center mb-4" id="titulo-formulario">
+                    <div><img src="data:image/png;base64,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
+                        JgJn24Gh9+8SNnAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwKDV+j+rS72kGhdn+QAAAABJRU5ErkJggg==" alt="" class="img-fluid ps-5"></div>
+                    <h2>Contáctanos</h2>
+                    <form>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="nombre@ejemplo.com">
+                        </div>
+                        <div class="mb-3">
+                            <input type="input" class="form-control" id="name" name="name" placeholder="Nombre">
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono">
+                        </div>
+                        <div class="form-floating mb-3">
+                            <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal"
+                                    data-bs-target="#modalFormulario">ENVIAR</button>
+                            </div>
+                    </form>
+
+                </div>
+        </section>
+
+    </main>
+
+
+  
+    <div class="modal fade" id="modalFormulario" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">GRACIAS POR CONTACTARNOS</h5>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-outline-secondary">ACEPTAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer" class="pb-4 pt-4">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-12 col-lg">
+              <a href="https://www.facebook.com/mariafernanda04032018072520005?mibextid=ZbWKwL">Visitanos en Facebook</a>
+            </div>
+            <div class="col-12 col-lg">
+              <a href="https://instagram.com/mariafer_mar?igshid=ZDdkNTZiNTM=">Instagram</a>
+            </div>
+            <div class="col-12 col-lg">
+              <a href="../html/contactanos.html">Contactanos</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+
+</html>
